@@ -10,26 +10,27 @@ La POO permite modelar problemas del mundo real de manera intuitiva, dividiendo 
 
 ## Los cuatro fundamentos de la POO  ##
 
-1. **Encapsulamiento:** Protege los datos dentro de un objeto, permitiendo el acceso solo a través de métodos definidos.<br> Ejemplo: Una "caja fuerte" que solo puede abrirse con una clave.
+1. **Encapsulamiento:** Protege los datos dentro de un objeto, permitiendo el acceso solo a través de métodos definidos.<br> Ejemplo: Un cajero automático, te permite consultar tu saldo y/o retirar efectivo siempre y caundo sepas la clave de tu cuenta.
 
-2. **Herencia:** Permite que una clase derive de otra, reutilizando atributos y métodos.<br> Ejemplo: Un "Médico" hereda propiedades de "Persona".
+2. **Herencia:** Permite que una clase derive de otra, reutilizando atributos y métodos.<br> Ejemplo: La clase "Médico" hereda propiedades de la clase "Persona", todo Médico es una persona y comparte sus características.
 
-3. **Polimorfismo:** Permite que un mismo método tenga diferentes comportamientos según el objeto que lo usa.<br> Ejemplo: Un "Médico" y una "Enfermera" pueden tener un método "atenderPaciente()" con diferente implementación.
+3. **Polimorfismo:** Permite que un mismo método tenga diferentes comportamientos según el objeto que lo usa.<br> Ejemplo: La clase "Médico" y la clase "Enfermera" pueden tener un método "atenderPacientes" con diferentes implementaciones, la enfermera lo tiende de cierta forma y el Médico puede aplicar otros tratamientos dentro del mismo método.
 
-4. **Abstracción:** Permite centrarse en los aspectos esenciales de un objeto sin preocuparse por los detalles internos.<br> Ejemplo: Un usuario usa un "sistema de turnos" sin conocer cómo funciona internamente.
-
+4. **Abstracción:** Permite centrarse en los aspectos esenciales de un objeto sin preocuparse por los detalles internos.<br> Ejemplo: Un cliente usa un "sistema de turnos" sin conocer cómo funciona internamente.
 
 ## Requisitos Iniciales del Sistema ##
 
-+ **Registro de pacientes y profesionales de la salud.** <br>
++ **Registrar pacientes con datos personales y de contacto.** <br>
 
-+ **Asignación de turnos según disponibilidad del profesional.** <br>
++ **Registrar profesionales de la salud con su información y horarios de atención.** <br>
 
-+ **Historial de turnos de cada paciente.** <br>
++ **Asignar turnos evitando sobreasignaciones.** <br>
 
-+ **Notificaciones automáticas para confirmaciones, cancelaciones o modificaciones.** <br>
++ **Enviar notificaciones automáticas a pacientes y profesionales según el estado de los turnos.** <br>
 
-+ **Seguridad y control de acceso a la información.** <br>
++ **Permitir la consulta y gestión del historial de turnos.** <br>
+
++ **Aplicar seguridad y control de acceso a la información.** <br>
 
 ## Casos de Uso ## 
 
