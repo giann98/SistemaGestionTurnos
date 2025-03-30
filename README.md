@@ -14,13 +14,13 @@ El objetivo del sistema es digitalizar y optimizar la gestión de turnos, garant
 
 ## Características principales ##
 
-+**Registro de pacientes y profesionales de la salud.** <br>
++ **Registro de pacientes y profesionales de la salud.** <br>
 
-+**Asignación de turnos según disponibilidad del profesional.** <br>
++ **Asignación de turnos según disponibilidad del profesional.** <br>
 
-+**Historial de turnos de cada paciente.** <br>
++ **Historial de turnos de cada paciente.** <br>
 
-+**Notificaciones automáticas para confirmaciones, cancelaciones o modificaciones.** <br>
++ **Notificaciones automáticas para confirmaciones, cancelaciones o modificaciones.** <br>
 
-+**Seguridad y control de acceso a la información.** <br>
++ **Seguridad y control de acceso a la información.** <br>
 
