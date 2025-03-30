@@ -12,17 +12,11 @@ La POO permite modelar problemas del mundo real de manera intuitiva, dividiendo 
 
 1. **Encapsulamiento:** Protege los datos dentro de un objeto, permitiendo el acceso solo a través de métodos definidos.<br> Ejemplo: Una "caja fuerte" que solo puede abrirse con una clave.
 
-2. **Herencia:** Permite que una clase derive de otra, reutilizando atributos y métodos.
+2. **Herencia:** Permite que una clase derive de otra, reutilizando atributos y métodos.<br> Ejemplo: Un "Médico" hereda propiedades de "Persona".
 
-Ejemplo: Un "Médico" hereda propiedades de "Persona".
+3. **Polimorfismo:** Permite que un mismo método tenga diferentes comportamientos según el objeto que lo usa.<br> Ejemplo: Un "Médico" y una "Enfermera" pueden tener un método "atenderPaciente()" con diferente implementación.
 
-3. **Polimorfismo:** Permite que un mismo método tenga diferentes comportamientos según el objeto que lo usa.
-
-Ejemplo: Un "Médico" y una "Enfermera" pueden tener un método "atenderPaciente()" con diferente implementación.
-
-4. **Abstracción:** Permite centrarse en los aspectos esenciales de un objeto sin preocuparse por los detalles internos.
-
-Ejemplo: Un usuario usa un "sistema de turnos" sin conocer cómo funciona internamente.
+4. **Abstracción:** Permite centrarse en los aspectos esenciales de un objeto sin preocuparse por los detalles internos.<br> Ejemplo: Un usuario usa un "sistema de turnos" sin conocer cómo funciona internamente.
 
 
 ## Requisitos Iniciales del Sistema ##
