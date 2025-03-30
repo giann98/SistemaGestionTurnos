@@ -10,9 +10,7 @@ La POO permite modelar problemas del mundo real de manera intuitiva, dividiendo 
 
 ## Los cuatro fundamentos de la POO  ##
 
-1. **Encapsulamiento:** Protege los datos dentro de un objeto, permitiendo el acceso solo a través de métodos definidos.
-
-Ejemplo: Una "caja fuerte" que solo puede abrirse con una clave.
+1. **Encapsulamiento:** Protege los datos dentro de un objeto, permitiendo el acceso solo a través de métodos definidos.<br> Ejemplo: Una "caja fuerte" que solo puede abrirse con una clave.
 
 2. **Herencia:** Permite que una clase derive de otra, reutilizando atributos y métodos.
 
