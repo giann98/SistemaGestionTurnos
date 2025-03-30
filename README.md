@@ -14,7 +14,7 @@ El objetivo del sistema es digitalizar y optimizar la gestión de turnos, garant
 
 ## Diagramas y diseños ##
 
-+ **[Anexos](anexos.md)
++ [Anexos](anexos.md)
 
 
 
