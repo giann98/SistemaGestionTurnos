@@ -98,3 +98,5 @@ Precondiciones: Debe existir al menos un turno registrado para el usuario consul
 Postcondiciones: Se muestra el historial de turnos.<br>
 
 ## Boceto inicial del Diseño de Clases ##
+
+[Boceto](Diseño clases.png)
