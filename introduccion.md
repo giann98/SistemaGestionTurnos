@@ -36,65 +36,65 @@ La POO permite modelar problemas del mundo real de manera intuitiva, dividiendo 
 
 1. **Solicitar Turno**
 
-Actor: Paciente
-Descripción: Un paciente solicita un turno con un profesional disponible.
-Flujo Principal:
+Actor: Paciente <br>
+Descripción: Un paciente solicita un turno con un profesional disponible.<br>
+Flujo Principal:<br>
 + El paciente ingresa al sistema.
 + Selecciona un profesional y verifica la fecha de disponibildad.
 + Confirma el turno.
 + El sistema envía una notificación de confirmación.
 
-Precondiciones: El paciente debe estar registrado.
+Precondiciones: El paciente debe estar registrado.<br>
 Postcondiciones: El turno queda registrado y notificado.
 
 2. **Registrar Profesional de la Salud**
 
-Actor: Administrador sistema
-Descripción: Se agrega un nuevo profesional al sistema.
-Flujo Principal:
+Actor: Administrador sistema<br>
+Descripción: Se agrega un nuevo profesional al sistema.<br>
+Flujo Principal:<br>
 + El administrador ingresa al sistema.
 + Ingresa los datos del profesional en un formulario.
 + Establece su especialidad con fecha y horarios de atención.
 + Guarda la información.
 
-Precondiciones: El profesional debe contar con matrícula válida y el administrador con credenciales adecuadas.
-Postcondiciones: El profesional queda registrado en el sistema.
+Precondiciones: El profesional debe contar con matrícula válida y el administrador con credenciales adecuadas.<br>
+Postcondiciones: El profesional queda registrado en el sistema.<br>
 
 3. **Notificar Cambio de Turno**
 
-Actor: Administrador/Profesional/Paciente
-Descripción: Se notifica a los usuarios cuando un turno es modificado.
-Flujo Principal:
+Actor: Administrador/Profesional/Paciente <br>
+Descripción: Se notifica a los usuarios cuando un turno es modificado.<br>
+Flujo Principal:<br>
 + El profesional o el administrador entra al sistema.
 + Registra un cambio en un turno.
 + El sistema genera y envía una notificación a los afectados.
 
-Precondiciones: Debe existir un turno activo.
-Postcondiciones: El paciente y el profesional reciben la notificación.
+Precondiciones: Debe existir un turno activo.<br>
+Postcondiciones: El paciente y el profesional reciben la notificación.<br>
 
 4. **Cancelar Turno**
 
-Actor: Paciente o Profesional
-Descripción: Un turno es cancelado.
-Flujo Principal:
+Actor: Paciente o Profesional<br>
+Descripción: Un turno es cancelado.<br>
+Flujo Principal:<br>
 + El usuario ingresa al sistema.
 + El usuario selecciona un turno existente.
 + Solicita la cancelación.
 + El sistema actualiza el estado y envía una notificación.
 
-Precondiciones: Debe existir un turno registrado para el usuario seleccionado.
-Postcondiciones: El turno queda cancelado y se libera el horario, notificando a los usuarios.
+Precondiciones: Debe existir un turno registrado para el usuario seleccionado.<br>
+Postcondiciones: El turno queda cancelado y se libera el horario, notificando a los usuarios.<br>
 
 5. **Consultar Historial de Turnos**
 
-Actor: Paciente o Profesional
-Descripción: Se consulta el historial de turnos asignados.
-Flujo Principal:
+Actor: Paciente o Profesional<br>
+Descripción: Se consulta el historial de turnos asignados.<br>
+Flujo Principal:<br>
 + El usuario ingresa al sistema.
 + Selecciona la opción "Historial".
 + Visualiza la lista de turnos anteriores.
 
-Precondiciones: Debe existir al menos un turno registrado para el usuario consultado.
-Postcondiciones: Se muestra el historial de turnos.
+Precondiciones: Debe existir al menos un turno registrado para el usuario consultado.<br>
+Postcondiciones: Se muestra el historial de turnos.<br>
 
 ## Boceto inicial del Diseño de Clases ##
