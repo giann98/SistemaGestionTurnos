@@ -99,4 +99,4 @@ Postcondiciones: Se muestra el historial de turnos.<br>
 
 ## Boceto inicial del Diseño de Clases ##
 
-[Boceto](Diseño clases.png)
+![Diseño clases](https://github.com/user-attachments/assets/76bc70c0-c786-494e-b282-fc937b5b1472)
