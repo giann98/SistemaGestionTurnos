@@ -1,4 +1,4 @@
-# Anexo - Introducción al Diseño Orientado a Objetos #
+:card_index_dividers:	# Anexo - Introducción al Diseño Orientado a Objetos #
 
 ### **Programación Orientada a Objetos (POO)** ###
 
