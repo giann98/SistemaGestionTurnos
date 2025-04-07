@@ -1,4 +1,4 @@
-# :card_index_dividers: Anexo - Introducción al Diseño Orientado a Objetos #
+#  📖 Anexo - Introducción al Diseño Orientado a Objetos #
 
 ### **Programación Orientada a Objetos (POO)** ###
 
@@ -8,7 +8,7 @@ La Programación Orientada a Objetos (POO) es un paradigma de programación que 
 
 La POO permite modelar problemas del mundo real de manera intuitiva, dividiendo el sistema en entidades que interactúan entre sí. Esto hace que el código sea más comprensible, reutilizable y fácil de mantener.
 
-## Los cuatro fundamentos de la POO  ##
+## ⚙️ Los cuatro fundamentos de la POO  ##
 
 1. **Encapsulamiento:** Protege los datos dentro de un objeto, permitiendo el acceso solo a través de métodos definidos.<br> Ejemplo: Un cajero automático, te permite consultar tu saldo y/o retirar efectivo siempre y caundo sepas la clave de tu cuenta.
 
@@ -18,7 +18,7 @@ La POO permite modelar problemas del mundo real de manera intuitiva, dividiendo 
 
 4. **Abstracción:** Permite centrarse en los aspectos esenciales de un objeto sin preocuparse por los detalles internos.<br> Ejemplo: Un cliente usa un "sistema de turnos" sin conocer cómo funciona internamente.
 
-## Requisitos Iniciales del Sistema ##
+## 📋 Requisitos Iniciales del Sistema ##
 
 + **Registrar pacientes con datos personales y de contacto.** <br>
 
@@ -33,7 +33,7 @@ La POO permite modelar problemas del mundo real de manera intuitiva, dividiendo 
 + **Aplicar seguridad y control de acceso a la información.** <br>
 
 
-##  Casos de Uso
+## 🗃️ Casos de Uso
 
 ---
 
@@ -122,6 +122,7 @@ Debe existir al menos un turno registrado para el usuario consultado.
 
 **Postcondiciones:**  
 Se muestra el historial de turnos.
-## Boceto inicial del Diseño de Clases ##
+
+## 📝 Boceto inicial del Diseño de Clases ##
 
 ![Diseño clases](https://github.com/user-attachments/assets/76bc70c0-c786-494e-b282-fc937b5b1472)
