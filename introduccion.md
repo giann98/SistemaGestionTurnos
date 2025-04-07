@@ -33,7 +33,7 @@ La POO permite modelar problemas del mundo real de manera intuitiva, dividiendo 
 + **Aplicar seguridad y control de acceso a la información.** <br>
 
 
-## 🗂 Casos de Uso
+##  Casos de Uso
 
 ---
 
