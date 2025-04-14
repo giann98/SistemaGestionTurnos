@@ -12,6 +12,8 @@ Un centro de salud en proceso de digitalización necesita una herramienta para o
 
 El objetivo del sistema es digitalizar y optimizar la gestión de turnos, garantizando que los turnos se registren correctamente, que se envíen notificaciones automáticas y que la información de los pacientes y profesionales se almacene de forma segura.
 
+Actualmente se avanzó con el proyecto de digitalización y se pudieron armar los diferentes diagramas y escenarios de casos de uso y además realizamos en conjunto con el cliente tarjetas CRC con el objetivo de entender las clases que se van a realizar y sus responsabilidades.
+
 ## Diagramas y diseños ##
 + [Anexos](anexos.md)
 + [Diagramas UML](diagramasUML.md)
