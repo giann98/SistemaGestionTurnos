@@ -14,6 +14,6 @@ El objetivo del sistema es digitalizar y optimizar la gestión de turnos, garant
 
 ## Diagramas y diseños ##
 + [Anexos](anexos.md)
-
-
++ [Diagramas UML](diagramasUML.md)
++ [Herramientas Agile](herramientas_agile.md)
 
