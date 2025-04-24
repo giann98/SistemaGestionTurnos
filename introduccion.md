@@ -125,4 +125,4 @@ Se muestra el historial de turnos.
 
 ## 📝 Boceto inicial del Diseño de Clases ##
 
-![Diseño clases]()
+![Diseño clases](Diagrama clases 2.png)
