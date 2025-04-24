@@ -125,4 +125,4 @@ Se muestra el historial de turnos.
 
 ## 📝 Boceto inicial del Diseño de Clases ##
 
-![Diseño clases](Diagrama clases 2.png)
+![Diseño clases](https://github.com/giann98/SistemaGestionTurnos/blob/8a14c50ca2031f3268f9ae329aadfc8829064619/Diagrama%20clases%202.png)
