@@ -1,4 +1,4 @@
-#  📖 Anexo - Aplicación de Patrón de Diseño de Comportamiento - Facade #
+#  📖 Anexo - Aplicación de Patrón de Diseño de Comportamiento - Observer #
 
 Los patrones de diseño de Comportamiento se enfocan en cómo interactúan los objetos entre sí y cómo se reparten las responsabilidades. Permiten mejorar la comunicación entre objetos sin acoplarlos fuertemente.
 
