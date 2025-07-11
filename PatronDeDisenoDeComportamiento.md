@@ -15,5 +15,5 @@ Este diseño era poco flexible y escalable. Por ejemplo, agregar un nuevo canal 
 Para resolver este problema, se aplicó el patrón Observer. La clase Turno se transformó en el Sujeto Observable, y las clases como NotificadorMail o NotificadorSMS implementan la interfaz ObservadorNotificacion.
 
  ## Estructura de Clases ##
-+ [Diagrama Clases Singleton](https://drive.google.com/file/d/18EXj6MZd9iqKkE2AVVxL3Uo1zE0w5z1b/view?usp=sharing)
++ [Diagrama Clases Observer](https://drive.google.com/file/d/18EXj6MZd9iqKkE2AVVxL3Uo1zE0w5z1b/view?usp=sharing)
 <img width="671" height="664" alt="image" src="https://github.com/user-attachments/assets/96593647-bc4b-414f-890c-f0cb7882f06c" />
