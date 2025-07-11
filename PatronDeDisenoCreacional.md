@@ -1,5 +1,21 @@
+#  📖 Anexo - Aplicación de Patrón de Diseño Creacional - Singleton #
 
+Los patrones de diseño creacionales se enfocan en cómo se crean los objetos. Ayudan a separar el proceso de creación de objetos de su uso, lo que permite mayor flexibilidad y reutilización.
 
-El patrón Singleton asegura que una clase tenga una única instancia y proporciona un punto global de acceso a ella.
+Para este caso seleccionamos el patrón Singleton, que asegura que una clase tenga una única instancia y proporciona un punto global de acceso a ella.
 
-En este sistema, RepositorioTurnos debe tener una única instancia para garantizar la integridad de los datos al gestionar múltiples operaciones sobre los turnos (crear, eliminar, modificar, buscar).
+En este sistema, la clase RepositorioTurnos debe tener una única instancia para garantizar la integridad de los datos al gestionar múltiples operaciones sobre los turnos (crear, eliminar, modificar, buscar).
+
+## Motivación ##
+
+En el sistema de gestión de turnos, la clase RepositorioTurnos es responsable de almacenar y recuperar todos los turnos registrados, actuando como una base de datos en memoria o una interfaz hacia un backend persistente.
+
+Durante el desarrollo se detectó que distintas partes del sistema accedían a este repositorio para consultar o modificar turnos: clases como ServiciosTurnos, Administrador, Paciente, etc. Sin un mecanismo centralizado, podían crearse múltiples instancias del repositorio, llevando a datos inconsistentes y duplicación de turnos, especialmente en operaciones concurrentes o en ambientes simulados de prueba.
+
+Para resolver este problema, se implementó el patrón Singleton sobre la clase RepositorioTurnos, garantizando que:
+
++ Solo exista una única instancia del repositorio durante toda la ejecución del sistema.
+
++ Todas las clases que necesitan acceder a los turnos trabajen sobre la misma instancia compartida.
+
++ Se asegure la integridad de los datos y la sincronización del estado del sistema.
