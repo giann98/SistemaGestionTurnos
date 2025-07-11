@@ -13,5 +13,5 @@ Durante el desarrollo del sistema, se detectó que el proceso de gestión de tur
 Para simplificar esta interacción, se aplicó el patrón Facade, mediante la implementación de una clase GestorTurnosFacade. Esta clase actúa como puerta de entrada unificada para todas las operaciones relacionadas con turnos, y delega internamente a las clases correspondientes.
 
  ## Estructura de Clases ##
-+ [Diagrama Clases Singleton](https://drive.google.com/file/d/1qoEI0CsREAPI8j7b6maCZVjrdXr9WWvg/view?usp=sharing)
++ [Diagrama Clases Facade](https://drive.google.com/file/d/1qoEI0CsREAPI8j7b6maCZVjrdXr9WWvg/view?usp=sharing)
 <img width="537" height="473" alt="image" src="https://github.com/user-attachments/assets/22dbafcc-6658-456f-a912-a026b343d45a" />
