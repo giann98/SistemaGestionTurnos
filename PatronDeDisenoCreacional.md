@@ -19,3 +19,8 @@ Para resolver este problema, se implementó el patrón Singleton sobre la clase 
 + Todas las clases que necesitan acceder a los turnos trabajen sobre la misma instancia compartida.
 
 + Se asegure la integridad de los datos y la sincronización del estado del sistema.
+
+ ## Estructura de Clases ##
++ [Diagrama Clases Singleton](https://drive.google.com/file/d/1AwOgeWKY0YhElN4xBLfdtAIYHlGg2Wri/view?usp=sharing)
+<img width="511" height="794" alt="image" src="https://github.com/user-attachments/assets/b1e0d31f-1989-40d3-a81f-38e80a5c5205" />
+
